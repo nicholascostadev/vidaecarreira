@@ -1,5 +1,5 @@
 {
-	"homepage": "https://github.com/nicholascostadev.github.io/vidaecarreira",
+	"homepage": "http://nicholascostadev.github.io/vidaecarreira",
 	"name": "vidaecarreira",
 	"version": "0.1.0",
 	"private": true,
@@ -12,7 +12,6 @@
 		"@types/react": "^18.0.0",
 		"@types/react-dom": "^18.0.0",
 		"axios": "^0.26.1",
-		"gh-pages": "^3.2.3",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0",
 		"react-icons": "^4.3.1",
@@ -23,7 +22,7 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"predeploy": "yarn build",
+		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
@@ -49,6 +48,7 @@
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.5",
+		"gh-pages": "^3.2.3",
 		"postcss": "^8.4.12",
 		"tailwindcss": "^3.0.24"
 	}
