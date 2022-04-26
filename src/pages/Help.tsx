@@ -51,6 +51,8 @@ const Help = () => {
 					<a
 						href="https://www.cvv.org.br/e-mail/"
 						className="text-blue-500 hover:underline lg:text-lg md:text-lg text-sm"
+						target="_blank"
+						rel="noreferrer"
 					>
 						email.
 					</a>
@@ -62,6 +64,7 @@ const Help = () => {
 						href="https://www.cvv.org.br/"
 						target="__blank"
 						className="text-blue-500 hover:underline lg:text-xl md:text-lg text-sm"
+						rel="noreferrer"
 					>
 						{' '}
 						site

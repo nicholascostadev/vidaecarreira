@@ -32,10 +32,16 @@ const Definition = () => {
 				</div>
 				<div className="w-full">
 					<img
-						className="w-full"
+						className="w-full shadow-md rounded-sm mb-2"
 						src={infograficoDepressao}
 						alt="Infográfico sobre depressão"
 					/>
+					<a
+						className=" text-blue-500"
+						href="http://blogs.unigranrio.br/bibliotecavirtual/files/2020/08/CAPS_centro-de-atencao-psicosocial-especializado-em-tratamento-depressivo.pdf"
+					>
+						Fonte
+					</a>
 				</div>
 			</div>
 		</section>
