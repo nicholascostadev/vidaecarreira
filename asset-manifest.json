@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/vidaecarreira/static/css/main.17420990.css",
-    "main.js": "/vidaecarreira/static/js/main.fabf060d.js",
+    "main.css": "/vidaecarreira/static/css/main.f609cf88.css",
+    "main.js": "/vidaecarreira/static/js/main.7840e1ca.js",
     "static/js/787.95cf3d05.chunk.js": "/vidaecarreira/static/js/787.95cf3d05.chunk.js",
     "static/media/questionMark.jpg": "/vidaecarreira/static/media/questionMark.5da37582506d42899c4b.jpg",
     "static/media/infograficos-depressao.jpg": "/vidaecarreira/static/media/infograficos-depressao.4cc9176aa73e7393fb73.jpg",
     "index.html": "/vidaecarreira/index.html",
-    "main.17420990.css.map": "/vidaecarreira/static/css/main.17420990.css.map",
-    "main.fabf060d.js.map": "/vidaecarreira/static/js/main.fabf060d.js.map",
+    "main.f609cf88.css.map": "/vidaecarreira/static/css/main.f609cf88.css.map",
+    "main.7840e1ca.js.map": "/vidaecarreira/static/js/main.7840e1ca.js.map",
     "787.95cf3d05.chunk.js.map": "/vidaecarreira/static/js/787.95cf3d05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17420990.css",
-    "static/js/main.fabf060d.js"
+    "static/css/main.f609cf88.css",
+    "static/js/main.7840e1ca.js"
   ]
 }
