@@ -1,0 +1,86 @@
+{
+	"sao_paulo": [
+		{
+			"latitude": -23.31244325927686,
+			"longitude": -46.59803368749999,
+			"address": "Rua Abolição,411 - Bela Vista  01319-010",
+			"phone": "188",
+			"time": "7 as 23 horas diariamente",
+			"title": "Abolição - São Paulo"
+		},
+		{
+			"latitude": -23.627087,
+			"longitude": -46.641790000000015,
+			"address": "Av: Jabaquara, 2607",
+			"phone": "188",
+			"time": "24 horas",
+			"title": "Jabaquara - São Paulo"
+		},
+		{
+			"latitude": -23.5602868,
+			"longitude": -46.686081100000024,
+			"address": "Rua Cardeal Arcoverde Nº562",
+			"phone": "188",
+			"time": "19 as 23 horas diariamente",
+			"title": "Pinheiros - São Paulo"
+		},
+		{
+			"latitude": -23.5373986,
+			"longitude": -46.553192999999965,
+			"address": "Rua Aimborés, 14 Vila Carrão",
+			"phone": "188",
+			"time": "24 horas",
+			"title": "Vila Carrão - São Paulo"
+		},
+		{
+			"latitude": -23.5199142,
+			"longitude": -46.521456,
+			"address": "Rua Candapuí, 350, Vila Marieta, São Paulo, SP",
+			"phone": "188",
+			"time": "Das 7 as 11 horas diariamente",
+			"title": "Penha - São Paulo - SP"
+		}
+	],
+	"rio_de_janeiro": [
+		{
+			"latitude": -22.90094749999999,
+			"longitude": -43.18368369999996,
+			"address": "Rua Leandro Martins nº 22/707 - Centro",
+			"phone": "188",
+			"time": "24 horas",
+			"title": "Centro-Rio de Janeiro"
+		},
+		{
+			"latitude": -22.924548499447912,
+			"longitude": -43.22046308437501,
+			"address": "Rua Barata Ribeiro, 489 - COPACABANA",
+			"phone": "188",
+			"time": "7 as 23 h diariamente",
+			"title": "Copacabana - Rio de Janeiro"
+		},
+		{
+			"latitude": -22.9113381,
+			"longitude": -43.23624460000002,
+			"address": "Rua Francisco Xavier, 524 - Térreo sala T-089",
+			"phone": "188",
+			"time": "19 as 22h 2a a 6a feira",
+			"title": "Maracanã - Rio de Janeiro"
+		},
+		{
+			"latitude": -22.9168920789226,
+			"longitude": -43.154876312499994,
+			"address": "Rua Doze de Fevereiro, 94, Bangu",
+			"phone": "188",
+			"time": "15 às 19h",
+			"title": "Bangu, Rio de Janeiro, RJ"
+		},
+		{
+			"latitude": -23.0027005,
+			"longitude": -43.321770000000015,
+			"address": "Av. Das Américas, 700-subsolo-Estacionamento do Shopping Citta America",
+			"phone": "188",
+			"time": "7h às 23h diariamente",
+			"title": "Barra da Tijuca - Rio de Janeiro"
+		}
+	]
+}
