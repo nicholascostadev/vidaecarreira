@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Header from '../components/Header';
 import axios from 'axios';
 import enderecos from './enderecos.json';
+import Footer from '../components/Footer';
 
 const Help = () => {
 	const [places, setPlaces] = useState<any>();
@@ -22,7 +23,7 @@ const Help = () => {
 	}, []);
 
 	return (
-		<div className="help h-screen">
+		<div className="help min-h-screen relative pb-20">
 			<Header />
 			<div className="text-xl h-100 lg:px-20 px-5 pb-5">
 				<p className="mt-40 mb-1 lg:text-xl md:text-lg text-sm  ">
@@ -122,6 +123,7 @@ const Help = () => {
 					})}
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 };

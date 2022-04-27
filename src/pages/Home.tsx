@@ -5,7 +5,7 @@ import Main from '../components/Main';
 
 const Home = () => {
 	return (
-		<div className="home">
+		<div className="home relative pb-10">
 			<Header />
 			<Hero />
 			<Main />
