@@ -15,6 +15,8 @@ const Footer = () => {
 					<a
 						href="https://github.com/nicholascostadev"
 						className="flex justify-center items-center ml-1 "
+						target="_blank"
+						rel="noreferrer"
 					>
 						<AiOutlineGithub /> <span className="text-blue-500">Github</span>
 					</a>
