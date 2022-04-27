@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineCopyright } from 'react-icons/ai';
+import { AiOutlineCopyright, AiOutlineGithub } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -9,7 +9,16 @@ const Footer = () => {
 				Ajuda
 			</Link>
 			<div className="flex justify-center items-center">
-				<AiOutlineCopyright /> nicholascostadev
+				<AiOutlineCopyright />
+				<div className="flex">
+					<p>nicholascostadev - </p>
+					<a
+						href="https://github.com/nicholascostadev"
+						className="flex justify-center items-center ml-1 "
+					>
+						<AiOutlineGithub /> <span className="text-blue-500">Github</span>
+					</a>
+				</div>
 			</div>
 		</footer>
 	);
