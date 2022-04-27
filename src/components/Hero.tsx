@@ -23,7 +23,7 @@ const Hero = () => {
 
 				<Link
 					to="/ajuda"
-					className="px-10 text-2xl py-2 rounded-full bg-green-500 hover:bg-green-600 text-white  "
+					className="px-10 text-2xl py-2  rounded-full bg-green-500 hover:bg-green-600 text-white  "
 				>
 					Ajuda
 				</Link>

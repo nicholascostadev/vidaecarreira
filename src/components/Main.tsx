@@ -6,8 +6,8 @@ const Main = () => {
 	return (
 		<main className="main md:px-20 px-5 min-h-screen">
 			<Definition />
-			<Difference />
 			<Sintomas />
+			<Difference />
 		</main>
 	);
 };
