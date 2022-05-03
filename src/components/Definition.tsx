@@ -3,7 +3,7 @@ import estresse from '../assets/estresse.png';
 const Definition = () => {
 	return (
 		<section className="section-1  " id="definicao">
-			<div className="grid lg:grid-cols-2 grid-cols-1 lg:min-h-screen lg:my-0 my-20 min-h-max content-center py-5 lg:py-0">
+			<div className="grid lg:grid-cols-2 grid-cols-1 lg:min-h-screen lg:my-0 my-20 min-h-max content-center place-items-center py-5 lg:py-0">
 				<div className="md:flex-1 max-w-3xl">
 					<h1 className="md:text-3xl text-2xl mb-6 border-b-2 pb-2">
 						Estresse excessivo

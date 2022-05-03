@@ -14,26 +14,11 @@ const Sintomas = () => {
 						ter também, os seguintes hábitos:
 					</p>
 					<ul style={{ listStyle: 'inside' }}>
-						<li>
-							Comportamentais:
-							<ul style={{ listStyle: 'inside' }} className="ml-5 mt-1">
-								<li className="lg:text-lg text-xs">Bebem muita cafeína</li>
-								<li className="lg:text-lg text-xs">Desabafam constantemente</li>
-								<li className="md:text-lg text-xs">Problemas psicomotores</li>
-								<li className="md:text-lg text-xs">
-									Ficam obcecados com coisas que não podem mudar
-								</li>
-							</ul>
-						</li>
-					</ul>
-					<ul style={{ listStyle: 'inside' }}>
-						<li>
-							{' '}
-							Físicos:
-							<ul style={{ listStyle: 'inside' }} className="ml-5 mt-1">
-								<li className="lg:text-lg text-xs">Bebem muita cafeína</li>
-								<li className="lg:text-lg text-xs">Bebem muita cafeína</li>
-							</ul>
+						<li className="lg:text-lg text-xs">Bebem muita cafeína</li>
+						<li className="lg:text-lg text-xs">Desabafam constantemente</li>
+						<li className="md:text-lg text-xs">Problemas psicomotores</li>
+						<li className="md:text-lg text-xs">
+							Ficam obcecados com coisas que não podem mudar
 						</li>
 					</ul>
 				</div>

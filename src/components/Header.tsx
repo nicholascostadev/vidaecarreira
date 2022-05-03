@@ -28,9 +28,9 @@ const Header = () => {
 				</a>
 				<Link
 					to="/ajuda"
-					className="lg:px-10 px-5 ml-5 py-2 rounded-full bg-green-500 hover:bg-green-600 text-white  "
+					className="lg:px-10 px-5 ml-5 py-2 rounded-full bg-green-500 hover:bg-green-600 text-white transition-all duration-500 "
 				>
-					Melhores Hábitos
+					Hábitos Melhores
 				</Link>
 			</div>
 			<AiOutlineMenu
