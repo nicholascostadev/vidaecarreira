@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/vidaecarreira/static/css/main.d342fdb8.css",
-    "main.js": "/vidaecarreira/static/js/main.068f33b3.js",
+    "main.css": "/vidaecarreira/static/css/main.3ca3ed99.css",
+    "main.js": "/vidaecarreira/static/js/main.b73b98aa.js",
     "static/js/787.95cf3d05.chunk.js": "/vidaecarreira/static/js/787.95cf3d05.chunk.js",
     "static/media/EstresseHero.jpg": "/vidaecarreira/static/media/EstresseHero.a842c9c83ca518d34c09.jpg",
     "static/media/estresse2.png": "/vidaecarreira/static/media/estresse2.536dc79e5c356cb26c6f.png",
     "static/media/estresse.png": "/vidaecarreira/static/media/estresse.0475d04751c6ff5847e5.png",
     "index.html": "/vidaecarreira/index.html",
-    "main.d342fdb8.css.map": "/vidaecarreira/static/css/main.d342fdb8.css.map",
-    "main.068f33b3.js.map": "/vidaecarreira/static/js/main.068f33b3.js.map",
+    "main.3ca3ed99.css.map": "/vidaecarreira/static/css/main.3ca3ed99.css.map",
+    "main.b73b98aa.js.map": "/vidaecarreira/static/js/main.b73b98aa.js.map",
     "787.95cf3d05.chunk.js.map": "/vidaecarreira/static/js/787.95cf3d05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d342fdb8.css",
-    "static/js/main.068f33b3.js"
+    "static/css/main.3ca3ed99.css",
+    "static/js/main.b73b98aa.js"
   ]
 }
