@@ -1,4 +1,5 @@
 import infograficoDepressao from '../assets/infograficos-depressao.jpg';
+import estresse from '../assets/estresse.png';
 
 const Definition = () => {
 	return (
@@ -6,20 +7,21 @@ const Definition = () => {
 			<div className="grid lg:grid-cols-2 grid-cols-1 lg:min-h-screen lg:my-0 my-20 min-h-max content-center py-5 lg:py-0">
 				<div className="md:flex-1 max-w-3xl">
 					<h1 className="md:text-3xl text-2xl mb-6 border-b-2 pb-2">
-						O que é a depressão
+						Estresse excessivo
 					</h1>
 					<p className="lg:text-xl md:text-lg text-sm mb-1">
-						A depressão é uma doença psiquiátrica crônica e recorrente que
-						produz uma alteração do humor caracterizada por uma tristeza
-						profunda, sem fim, associada a sentimentos de dor, amargura,
-						desencanto, desesperança, baixa autoestima e culpa.
+						De acordo com a OMS(Organização Mundial da Saúde), o estresse atinge
+						cerca de 90% da população mundial. "É importante prestar atenção aos
+						nossos pensamentos e sentimentos, buscando ajustá-los diariamente.
+						Viver cada dia, sem se exigir tanto e estimular esperanças diárias
+						", disse Mônica Osório, psicóloga do IMIP, mostrando a importância
+						da criação de novos hábitos mais saudáveis.
 					</p>
 					<p className="lg:text-xl md:text-lg text-sm mb-1">
-						De acordo com o gráfico, existem 322 milhões de pessoas que sofrem
-						de depressão no mundo(4,4% da população do planeta). O Brasil tem a
-						maior taxa de depressão da América Latina. Cerca de 800 mil pessoas
-						morrem por suicídio a cada ano, sendo a segunda principal causa de
-						morte de pessoas entre 15 e 29 anos.
+						Atualmente, têm-se ouvido muito dos casos chamados de 'burn-out',
+						uma sensação extrema de estresse, exaustão e esgotamento físico
+						advinda de um trabalho muito desgastante que demanda muito do
+						indivíduo constantemente.
 					</p>
 					<a
 						href="https://drauziovarella.uol.com.br/doencas-e-sintomas/depressao/"
@@ -32,16 +34,10 @@ const Definition = () => {
 				</div>
 				<div className="w-full">
 					<img
-						className="w-full shadow-md rounded-sm mb-2"
-						src={infograficoDepressao}
+						className="w-full rounded-sm mb-2"
+						src={estresse}
 						alt="Infográfico sobre depressão"
 					/>
-					<a
-						className=" text-blue-500"
-						href="http://blogs.unigranrio.br/bibliotecavirtual/files/2020/08/CAPS_centro-de-atencao-psicosocial-especializado-em-tratamento-depressivo.pdf"
-					>
-						Fonte
-					</a>
 				</div>
 			</div>
 		</section>

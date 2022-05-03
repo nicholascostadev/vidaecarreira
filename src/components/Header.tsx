@@ -10,7 +10,7 @@ const Header = () => {
 		<div className="header flex justify-between items-center md:px-20 px-5 h-20 w-full max-w-full border-b-2 fixed bg-white z-10">
 			<div>
 				<Link to="/" className="text-3xl">
-					Titulo
+					Estresse
 				</Link>
 			</div>
 			<div className="md:flex hidden justify-center items-center ">
@@ -26,17 +26,11 @@ const Header = () => {
 				>
 					Sintomas
 				</a>
-				<a
-					href="#diferenca"
-					className="mx-2 lg:px-10 px-2 hover:border-b-2 hover:border-gray-400 border-b-2 border-transparent transition-all"
-				>
-					Tristeza ou Depressão?
-				</a>
 				<Link
 					to="/ajuda"
 					className="lg:px-10 px-5 ml-5 py-2 rounded-full bg-green-500 hover:bg-green-600 text-white  "
 				>
-					Ajuda
+					Melhores Hábitos
 				</Link>
 			</div>
 			<AiOutlineMenu
@@ -56,7 +50,7 @@ const Header = () => {
 					onClick={toggleMenu}
 				/>
 				<div className="md:hidden text-center flex flex-col w-full pb-5">
-					<h1 className="text-3xl">Titulo</h1>
+					<h1 className="text-3xl">Estresse</h1>
 				</div>
 				<hr />
 				<div className="md:hidden flex flex-col px-10 justify-center">
@@ -74,19 +68,12 @@ const Header = () => {
 					>
 						Sintomas
 					</a>
-					<a
-						href="#diferenca"
-						onClick={toggleMenu}
-						className="py-2 underline text-center transition-all"
-					>
-						Tristeza ou Depressão?
-					</a>
 					<Link
 						to="/ajuda"
 						onClick={toggleMenu}
 						className="my-5 text-center lg:px-10 px-5 py-2 rounded-full bg-green-500 hover:bg-green-600 text-white  "
 					>
-						Ajuda
+						Hábitos Para Melhora
 					</Link>
 				</div>
 			</div>

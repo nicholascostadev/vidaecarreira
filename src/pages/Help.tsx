@@ -1,60 +1,48 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PlacesList from '../components/PlacesList';
+import estresse2 from '../assets/estresse2.png';
 
 const Help = () => {
 	return (
 		<div className="help min-h-screen relative pb-20">
 			<Header />
-			<div className="text-xl h-100 lg:px-20 px-5 pb-5">
-				<p className="mt-40 mb-1 lg:text-xl md:text-lg text-sm  ">
-					A primeira indicação é procurar imediatamente um médico especializado
-					no assunto. Depressão é uma doença séria que deve ser tratada com uma
-					pessoa que realmente conhece do assunto e sabe como pode te ajudar.
-					Não recorra a métodos na internet que digam curar a depressão se não
-					for com a ajuda de um médico. Caso precise de alguém para conversar,
-					existe o
-					<a
-						href="https://www.cvv.org.br/"
-						className="text-blue-500 hover:underline lg:text-xl md:text-lg text-sm"
-					>
-						{' '}
-						CVV(Centro de Valorização da Vida){' '}
-					</a>
-					que estará atendendo voluntariamente 24 horas por dia pelo telefone,
-					email e chat sob total sigilo.
-				</p>
-				<p className="lg:text-xl md:text-lg text-sm">
-					Ou também, ligue diretamente para o contato do CVV para o número
-					<span className="text-blue-500 lg:text-xl md:text-lg text-sm">
-						{' '}
-						198
-					</span>{' '}
-					ou contate-os por{' '}
-					<a
-						href="https://www.cvv.org.br/e-mail/"
-						className="text-blue-500 hover:underline lg:text-lg md:text-lg text-sm"
-						target="_blank"
-						rel="noreferrer"
-					>
-						email.
-					</a>
-				</p>
-				<p className="lg:text-xl md:text-lg text-sm">
-					Aqui têm alguns lugares de atendimento do CVV pessoalmente, caso
-					queira acessar todos os lugares, entre no
-					<a
-						href="https://www.cvv.org.br/"
-						target="__blank"
-						className="text-blue-500 hover:underline lg:text-xl md:text-lg text-sm"
-						rel="noreferrer"
-					>
-						{' '}
-						site
-					</a>{' '}
-					deles.
-				</p>
-				<PlacesList />
+			<div className="grid xl:grid-cols-2 grid-cols-1 mt-40 text-xl h-100 lg:px-20 px-5 pb-5">
+				<div>
+					<h1 className="md:text-3xl text-2xl mb-6 pb-2 border-b-2">
+						Hábitos para a melhora do estresse
+					</h1>
+					<p className=" mb-1 lg:text-xl md:text-lg text-sm">
+						A melhor indicação é sempre a consulta com um{' '}
+						<span className="text-purple-800">médico especialista</span>,
+						estresse em excesso é um problema sério e deve ser tratado
+						corretamente para não acarretar outros efeitos como a ansiedade e
+						depressão. Ninguém poderá te ajudar mais do que um bom profissional
+						da área. Ainda assim existem ajustes de hábitos que costumam ser
+						úteis para a maior parcela da população:
+					</p>
+					<br />
+					<h2 className="md:text-2xl">1 - Alimentação saudável</h2>
+					<hr />
+					<p className=" lg:text-xl md:text-lg text-sm mt-4">
+						Uma alimentação saudável é um dos principais fatores que contribuem
+						para a redução do estresse. A alimentação saudável contribui para a
+						redução da pressão arterial, aumento da circulação sanguínea,
+						aumento da produção de colesterol e aumento da produção de glicose.
+					</p>
+					<br />
+					<h2 className="md:text-2xl">2 - Alimentação saudável</h2>
+					<hr />
+					<p className=" lg:text-xl md:text-lg text-sm mb-28 mt-4">
+						Uma alimentação saudável é um dos principais fatores que contribuem
+						para a redução do estresse. A alimentação saudável contribui para a
+						redução da pressão arterial, aumento da circulação sanguínea,
+						aumento da produção de colesterol e aumento da produção de glicose.
+					</p>
+				</div>
+				<div>
+					<img src={estresse2} alt="" />
+				</div>
 			</div>
 			<Footer />
 		</div>

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Fragment } from 'react';
 import enderecos from '../assets/enderecos.json';
 
 const PlacesList = () => {
@@ -18,6 +18,7 @@ const PlacesList = () => {
 	useEffect(() => {
 		setPlaces(enderecos);
 	}, []);
+
 	return (
 		<>
 			<div className="flex md:flex-row flex-col mt-10 items-center">
@@ -51,26 +52,28 @@ const PlacesList = () => {
 				</button>
 			</div>
 
-			<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
-				{place.map((item: any) => {
-					return (
-						<div className="border-2 rounded-xl mt-5 p-5 drop-shadow-lg ">
-							<p className="lg:text-xl md:text-lg text-sm">
-								Local: {item.title}
-							</p>
-							<p className="lg:text-xl md:text-lg text-sm">
-								Endereço: {item.address}
-							</p>
-							<p className="lg:text-xl md:text-lg text-sm">
-								Número de telefone: {item.phone}
-							</p>
-							<p className="lg:text-xl md:text-lg text-sm">
-								Atendimento de {item.time}
-							</p>
-						</div>
-					);
-				})}
-			</div>
+			{place && (
+				<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+					{place.map((item: any) => {
+						return (
+							<div className="border-2 rounded-xl mt-5 p-5 drop-shadow-lg ">
+								<p className="lg:text-xl md:text-lg text-sm">
+									Local: {item.title}
+								</p>
+								<p className="lg:text-xl md:text-lg text-sm">
+									Endereço: {item.address}
+								</p>
+								<p className="lg:text-xl md:text-lg text-sm">
+									Número de telefone: {item.phone}
+								</p>
+								<p className="lg:text-xl md:text-lg text-sm">
+									Atendimento de {item.time}
+								</p>
+							</div>
+						);
+					})}
+				</div>
+			)}
 		</>
 	);
 };
