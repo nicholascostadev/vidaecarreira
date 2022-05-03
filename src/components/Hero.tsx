@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 
 import estresseHero from '../assets/EstresseHero.jpg';
-import estresseHero2 from '../assets/HeroImage2.png';
 
 const Hero = () => {
 	return (

@@ -1,5 +1,3 @@
-import duvida from '../assets/questionMark.jpg';
-
 const Difference = () => {
 	return (
 		<section className="  section-2 " id="diferenca">

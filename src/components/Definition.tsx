@@ -1,4 +1,3 @@
-import infograficoDepressao from '../assets/infograficos-depressao.jpg';
 import estresse from '../assets/estresse.png';
 
 const Definition = () => {

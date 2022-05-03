@@ -1,6 +1,5 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import PlacesList from '../components/PlacesList';
 import estresse2 from '../assets/estresse2.png';
 
 const Help = () => {
