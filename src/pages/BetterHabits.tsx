@@ -2,7 +2,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import estresse2 from '../assets/estresse2.png';
 
-const Help = () => {
+const BetterHabits = () => {
 	return (
 		<div className="help min-h-screen relative pb-20">
 			<Header />
@@ -51,10 +51,10 @@ const Help = () => {
 				<hr />
 				<p className=" lg:text-xl md:text-lg text-sm mt-4">
 					Altas quantidades de cafeína podem aumentar os níveis de cortisol e
-					intensificar os efeitos do estresse no corpo. É
-					importante prestar atenção em como seu corpo reage à cafeína; você
-					pode precisar cortar bebidas e alimentos à base da substância ou
-					experimentar um chá de ervas se estiver se sentindo estressado.
+					intensificar os efeitos do estresse no corpo. É importante prestar
+					atenção em como seu corpo reage à cafeína; você pode precisar cortar
+					bebidas e alimentos à base da substância ou experimentar um chá de
+					ervas se estiver se sentindo estressado.
 				</p>
 			</div>
 			<Footer />
@@ -62,4 +62,4 @@ const Help = () => {
 	);
 };
 
-export default Help;
+export default BetterHabits;

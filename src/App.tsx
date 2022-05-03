@@ -1,6 +1,6 @@
 import Home from './pages/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Help from './pages/Help';
+import BetterHabits from './pages/BetterHabits';
 
 function App() {
 	return (
@@ -8,7 +8,7 @@ function App() {
 			<Router basename={process.env.PUBLIC_URL}>
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/ajuda" element={<Help />} />
+					<Route path="/habitos-melhores" element={<BetterHabits />} />
 				</Routes>
 			</Router>
 		</div>

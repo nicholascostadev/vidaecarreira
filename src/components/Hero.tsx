@@ -21,7 +21,7 @@ const Hero = () => {
 				</p>
 
 				<Link
-					to="/ajuda"
+					to="/habitos-melhores"
 					className="px-10 text-2xl py-2 transition-all duration-300 rounded-full bg-green-500 hover:bg-green-600 text-white "
 				>
 					Hábitos Melhores

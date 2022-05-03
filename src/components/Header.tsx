@@ -26,8 +26,14 @@ const Header = () => {
 				>
 					Sintomas
 				</a>
+				<a
+					href="#testimonial"
+					className="mx-2  lg:px-10 px-2 hover:border-b-2 hover:border-gray-400 border-b-2 border-transparent transition-all"
+				>
+					Especialista
+				</a>
 				<Link
-					to="/ajuda"
+					to="/habitos-melhores"
 					className="lg:px-10 px-5 ml-5 py-2 rounded-full bg-green-500 hover:bg-green-600 text-white transition-all duration-500 "
 				>
 					Hábitos Melhores
@@ -68,8 +74,15 @@ const Header = () => {
 					>
 						Sintomas
 					</a>
+					<a
+						href="#testimonial"
+						onClick={toggleMenu}
+						className="py-2 underline text-center transition-all"
+					>
+						Especialista
+					</a>
 					<Link
-						to="/ajuda"
+						to="/habitos-melhores"
 						onClick={toggleMenu}
 						className="my-5 text-center lg:px-10 px-5 py-2 rounded-full bg-green-500 hover:bg-green-600 text-white  "
 					>

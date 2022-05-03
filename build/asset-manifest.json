@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/vidaecarreira/static/css/main.abc96e7f.css",
-    "main.js": "/vidaecarreira/static/js/main.29c0dec8.js",
+    "main.css": "/vidaecarreira/static/css/main.d342fdb8.css",
+    "main.js": "/vidaecarreira/static/js/main.068f33b3.js",
     "static/js/787.95cf3d05.chunk.js": "/vidaecarreira/static/js/787.95cf3d05.chunk.js",
-    "static/media/questionMark.jpg": "/vidaecarreira/static/media/questionMark.5da37582506d42899c4b.jpg",
-    "static/media/infograficos-depressao.jpg": "/vidaecarreira/static/media/infograficos-depressao.4cc9176aa73e7393fb73.jpg",
+    "static/media/EstresseHero.jpg": "/vidaecarreira/static/media/EstresseHero.a842c9c83ca518d34c09.jpg",
+    "static/media/estresse2.png": "/vidaecarreira/static/media/estresse2.536dc79e5c356cb26c6f.png",
+    "static/media/estresse.png": "/vidaecarreira/static/media/estresse.0475d04751c6ff5847e5.png",
     "index.html": "/vidaecarreira/index.html",
-    "main.abc96e7f.css.map": "/vidaecarreira/static/css/main.abc96e7f.css.map",
-    "main.29c0dec8.js.map": "/vidaecarreira/static/js/main.29c0dec8.js.map",
+    "main.d342fdb8.css.map": "/vidaecarreira/static/css/main.d342fdb8.css.map",
+    "main.068f33b3.js.map": "/vidaecarreira/static/js/main.068f33b3.js.map",
     "787.95cf3d05.chunk.js.map": "/vidaecarreira/static/js/787.95cf3d05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abc96e7f.css",
-    "static/js/main.29c0dec8.js"
+    "static/css/main.d342fdb8.css",
+    "static/js/main.068f33b3.js"
   ]
 }
