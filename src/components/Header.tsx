@@ -56,7 +56,9 @@ const Header = () => {
 					onClick={toggleMenu}
 				/>
 				<div className="md:hidden text-center flex flex-col w-full pb-5">
-					<h1 className="text-3xl">Estresse</h1>
+					<Link to="/" className="text-3xl">
+						Estresse
+					</Link>
 				</div>
 				<hr />
 				<div className="md:hidden flex flex-col px-10 justify-center">
